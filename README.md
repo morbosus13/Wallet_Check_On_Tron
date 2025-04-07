@@ -30,7 +30,15 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-4. Запускаем приложение:
+4. Создаем файл ***.env*** и задаем в нем переменную **API_KEY**:
+
+
+    API_KEY = "ваш_ключ"
+
+
+API-ключ можно получить [здесь](https://tronscan.org/#/myaccount/apiKeys/)
+
+5. Запускаем приложение:
 
 ```uvicorn main:app```
 
