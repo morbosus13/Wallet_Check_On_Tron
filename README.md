@@ -40,7 +40,9 @@ API-ключ можно получить [здесь](https://tronscan.org/#/mya
 
 5. Запускаем приложение:
 
-```uvicorn main:app```
+```
+uvicorn main:app
+```
 
 ## Тестирование
 
